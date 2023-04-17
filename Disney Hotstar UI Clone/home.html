@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video_Player</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="full-page">
+        <div class='headernav'>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Video Player</a>
+                    <div class="ser">
+                        <input class="ser1" type="text" placeholder="   Search..">
+                        <img class="sc" src="./icons8-search-24.png" alt="">
+                    </div>
+                    <header>
+                        <div class="header" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="TV.html">TV</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Movies.html">Movies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sports.html">Sports</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="News.html">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="premium.html">Premium</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Login.html">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </header>
+            </nav>
+        </div>
+
+        <div class="slide">
+
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade1">
+                    <div class="numbertext"></div>
+                    <a href="https://youtu.be/JCwaqDjTrjs"> <img src="./abc-1.png" style="width:92%;  " /></a>
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade1">
+                    <div class="numbertext"></div>
+                    <a href="https://youtu.be/JCwaqDjTrjs"><img src="./abc-2.png" style="width:92%" /></a>
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade2">
+                    <div class="numbertext"></div>
+                    <a href="https://youtu.be/jQzDujMzfoU"> <img src="./abc-3.png" style="width:92%" /></a>
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade3">
+                    <div class="numbertext"></div>
+                    <a href="https://youtu.be/cffAGIYTEHU"><img src="./abc-4.png" style="width:92%" /></a>
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade4">
+                    <div class="numbertext"></div>
+                    <a href="https://youtu.be/LPhqL4DqzBg"><img src="./abc-5.png" style="width:100%" /></a>
+                    <div class="text"></div>
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+
+        </div>
+        <div class="video-card-container">
+            <div class="video-card">
+                <img src="./disney.PNG" alt="" class="video-card-image">
+                <video src="./disney.mp4" class="card-video"></video>
+            </div>
+
+
+            <div class="video-card">
+                <img src="./marvel.PNG" alt="" class="video-card-image">
+                <video src="./marvel.mp4" class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="./geographic.PNG" alt="" class="video-card-image">
+                <video src="./geographic.mp4" class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="./pixar.PNG" alt="" class="video-card-image">
+                <video src="./pixar.mp4" class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="./star-wars.PNG" alt="" class="video-card-image">
+                <video src="./star-war.mp4" class="card-video"></video>
+            </div>
+        </div>
+        <h1 class="title">Latest & Trending</h1>
+
+
+        <div class="card-container">
+
+            <a href="https://youtu.be/ifRFKWpsZpw" style="text-decoration: none;">
+                <div class="card">
+
+                    <img src="./loki.png" alt="" class="card-img">
+                    <div class="card-body">
+                        <h2 class="name"> LOKI</h2>
+                        <h6 class="des">The mercurial villain Loki resumes his role as the God of Mischief in a new
+                            series that takes place after the events of “Avengers: Endgame.</h6>
+                        <br>
+                        <button class="whatchlist-btn">Add To Watchlist</button>
+                    </div>
+            </a>
+        </div>
+
+        <a href="https://youtu.be/QSzfR68VfGw" style="text-decoration: none;">
+
+            <div class="card">
+                <img src="./poster 2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name"> MULAN</h2>
+                    <h6 class="des">Masquerading as a male soldier to protect her father and tested every step of
+                        the way, Mulan must harness her inner-strength.</h6><br>
+                    <button class="whatchlist-btn">Add To Watchlist</button>
+                </div>
+        </a>
+    </div>
+    <a href="https://youtu.be/f1lJA95IzBM" style="text-decoration: none;">
+        <div class="card">
+            <img src="./poster 3.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> THE FALCON AND WINTER SOLDIER</h2>
+                <h6 class="des">Following the events of "Avengers: Endgame," Sam Wilson and Bucky Barnes team up
+                    in a global adventure that tests their abilities.</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/LPhqL4DqzBg" style="text-decoration: none;">
+        <div class="card">
+            <img src="./poster 4.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">AVENGER : ENDGAME</h2>
+                <h6 class="des">After the devastating events of the Infinity War, the Avengers assemble once
+                    more to reverse Thanos' actions.</h6>
+
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/NNvt4OS7mhA" style="text-decoration: none;">
+        <div class="card">
+            <img src="./poster 5.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> THOR : RAGNAROK</h2>
+                <h6 class="des">Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the
+                    universe to save his home, Asgard, from Hela.</h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/NxUCAnAjHKo" style="text-decoration: none;">
+        <div class="card">
+            <img src="./poster 6.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> THE AVENGERS</h2>
+                <h6 class="des">Nick Fury finds himself in need of a team to pull the world back from the brink
+                    of disaster by launching the Avengers Initiative</h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/AhHrUFcGinQ" style="text-decoration: none;">
+        <div class="card">
+            <img src="./poster 7.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> PIRATES OF CARIBBEAN</h2>
+                <h6 class="des">Captain Jack Sparrow senses the winds of ill-fortune when his nemesis Captain
+                    Salazar escapes from the Devil's Triangle, to kill every pirate at sea including him</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+
+
+    </div>
+
+    <div>
+        <h1 class="title2">recommanded for you</h1>
+    </div>
+
+    <div class="card-container1">
+        <a href="" style="text-decoration: none;">
+            <div class="card">
+                <img src="./bl.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name"> BLACK PANTHER </h2>
+                    <h6 class="des">T'Challa, heir to the hidden but advanced kingdom of Wakanda,must step forward to
+                        lead his people into a new future.</h6>
+                    <br>
+                    <button class="whatchlist-btn">Add To Watchlist</button>
+                </div>
+        </a>
+    </div>
+
+    <a href="https://youtu.be/mkG_AfndY08" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./poster 8.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> SOUL</h2>
+                <h6 class="des">Soul is a 2020 American computer-animated comedy-drama film produced
+                    Animation Studios for Walt Disney Pictures.</h6><br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/MVeQKJ9XA2g" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./poster 9.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">RAYA AND LAST DRAGON</h2>
+                <h6 class="des">Raya and the Last Dragon is a 2021 American computer-animated fantasy
+                    action-adventure film produced by Walt Disney by Walt Disney.
+                    Studios Motion Pictures.</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/HD_oTWM8r-U" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./poster 10.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">LUCA</h2>
+                <h6 class="des">Luca is a 2021 American computer-animated coming-of-age fantasy film produced by
+                    Pixar Animation Studios for Walt Disney Pictures.The film was directed by Enrico Casarosa .</h6>
+
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/zyYgDtY2AMY" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./poster 11.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">FORD VS FERRARI</h2>
+                <h6 class="des">American car designer Carroll Shelby the laws of physics to
+                    build a revolutionary race car for Ford in order to
+                    defeat Ferrari.</h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/kmnPKipK17M" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./poster 12.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> DARK PHOENIX</h2>
+                <h6 class="des">Dark Phoenix is a 2019 American superhero film based on the Marvel Comics X-Men
+                    characters.
+                </h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/C0BMx-qxsP4" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./jv.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">JOHN WICK</h2>
+                <h6 class="des">An ex-hit-man comes out of retirement to track down the gangsters that killed his
+                    dog and took his car.John Wick is a 2014 American action thriller film.</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+
+
+    </div>
+
+
+
+    <div>
+        <h1 class="title3">Popular Movies</h1>
+    </div>
+
+    <div class="card-container2">
+
+        <a href="https://youtu.be/_6Ix1VF_yWM" style="text-decoration: none;">
+
+            <div class="card">
+                <img src="./k3.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">KRRISH 3</h2>
+                    <h6 class="des">Krrish 3 is a 2013 Indian Hindi-language superhero film written, produced
+                        by Rakesh Roshan the screenplay with Honey Irani.</h6>
+                    <br>
+                    <button class="whatchlist-btn">Add To Watchlist</button>
+                </div>
+        </a>
+    </div>
+
+
+    <a href="https://youtu.be/6oKFao0aISA" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./Kantara.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name"> KANTARA</h2>
+                <h6 class="des">Kantara is a 2022 Indian Kannada-language action thriller film written and directed
+                    by Rishab Shetty.</h6><br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/ePO5M5DE01I" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./TIGER.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">TIGER ZINDA HAI</h2>
+                <h6 class="des">Tiger Zinda Hai is a 2017 Indian Hindi-language spy action-thriller film written and
+                    directed by Ali Abbas Zafar from a story by Zafar and Neelesh Misra.</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/VgGgYOzNWno" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./RAM.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">RAM SETU</h2>
+                <h6 class="des">Ram Setu is a 2022 Indian Hindi-language action-adventure film directed by Abhishek
+                    Sharma. The film stars Akshay Kumar, Jacqueline Fernandez, Nushrratt Bharuccha.</h6>
+
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/GY4BgdUSpbE" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./RRR.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">RRR</h2>
+                <h6 class="des">RRR is a 2022 Indian Telugu-language epic action drama film directed by S. S.
+                    Rajamouli.</h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/vCTt_PnWHPg" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./ACH.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">AN ACTION HERO</h2>
+                <h6 class="des">Action Hero Maanav was at the peak of
+                    his career when he accident while filming in Haryana.
+                </h6> <br>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+    <a href="https://youtu.be/Faz9PrY6xF8" style="text-decoration: none;">
+
+        <div class="card">
+            <img src="./HERO.jpg" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="name">HEROPANTI 2</h2>
+                <h6 class="des">Heropanti 2 (transl.Heroic antics 2) is a 2022 Indian Hindi-language action film
+                    directed by Ahmed Khan.</h6>
+                <button class="whatchlist-btn">Add To Watchlist</button>
+            </div>
+    </a>
+    </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+</body>
+<script src="home.js"></script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        // var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+
+</script>
+
+</html>
